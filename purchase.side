@@ -1,0 +1,98 @@
+{
+  "id": "f3908866-7c7a-410c-a077-0ba269aa9273",
+  "version": "2.0",
+  "name": "purchase",
+  "url": "https://www.demoblaze.com",
+  "tests": [{
+    "id": "39fef1c8-c431-421f-8a14-89997706e32c",
+    "name": "check purchase prosses",
+    "commands": [{
+      "id": "c9915aa4-18e6-4c1e-abb2-85545f0ad1ee",
+      "comment": "",
+      "command": "cart page",
+      "target": "/cart.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a2ee8f1-3ee1-473e-85a5-bb702addab4b",
+      "comment": "",
+      "command": "click on place order",
+      "target": "css=.btn-success",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b86cced6-2527-4267-a409-deb8d437fb5c",
+      "comment": "",
+      "command": "fill name",
+      "target": "id=name",
+      "targets": [],
+      "value": "ff"
+    }, {
+      "id": "34da76ed-8ac2-410c-b150-f51968d176c5",
+      "comment": "",
+      "command": "fill contry",
+      "target": "id=country",
+      "targets": [],
+      "value": "Jordan"
+    }, {
+      "id": "1bf11626-3dec-4f31-99b6-3653def28a71",
+      "comment": "",
+      "command": "fill city",
+      "target": "id=city",
+      "targets": [],
+      "value": "amman"
+    }, {
+      "id": "941c8238-539a-49d3-9f18-429b831aa4c2",
+      "comment": "",
+      "command": "fill card",
+      "target": "id=card",
+      "targets": [],
+      "value": "000"
+    }, {
+      "id": "c2b7e267-edea-45a7-a15f-66950a9d201a",
+      "comment": "",
+      "command": "fill month",
+      "target": "id=month",
+      "targets": [],
+      "value": "11"
+    }, {
+      "id": "bf26f325-22e0-4eb5-b6b6-e646ab3b89f6",
+      "comment": "",
+      "command": "fill year",
+      "target": "id=year",
+      "targets": [],
+      "value": "2021"
+    }, {
+      "id": "4a56d20f-e436-4e0f-b27a-2040f646c504",
+      "comment": "",
+      "command": "check purchase button",
+      "target": "css=#orderModal .btn-primary",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "422ee58f-203b-4b4d-a03f-bedb79cb3981",
+      "comment": "",
+      "command": "click on purchase",
+      "target": "css=#orderModal .btn-primary",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c326e08-c4a1-4637-a4f4-320d5f06f2f5",
+      "comment": "",
+      "command": "click on ok",
+      "target": "css=.confirm",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "79102ad5-1711-4958-bcb7-9adf1cf1b852",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["39fef1c8-c431-421f-8a14-89997706e32c"]
+  }],
+  "urls": ["https://www.demoblaze.com/"],
+  "plugins": []
+}

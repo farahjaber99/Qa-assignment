@@ -1,0 +1,84 @@
+{
+  "id": "6dc01c66-ecd9-4e25-9e71-d383d155861d",
+  "version": "2.0",
+  "name": "sign up",
+  "url": "https://www.demoblaze.com",
+  "tests": [{
+    "id": "81c901f4-5490-465a-a55f-bb498138e7a2",
+    "name": "check if sign up process is function",
+    "commands": [{
+      "id": "5d1f98e9-2080-4f91-b702-e98d096d626f",
+      "comment": "",
+      "command": "navigate the url",
+      "target": "/https://www.demoblaze.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "721ffc4a-946a-44e6-bb02-d6a2293f263e",
+      "comment": "",
+      "command": "click on sign up",
+      "target": "id=signin2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bda03cdf-745d-4152-844e-490bba13bf33",
+      "comment": "",
+      "command": "click on user name box",
+      "target": "id=sign-username",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5ceadda-0e6a-41c3-ab90-63305bd66384",
+      "comment": "",
+      "command": "fill user name",
+      "target": "id=sign-username",
+      "targets": [],
+      "value": "farah7"
+    }, {
+      "id": "54eae7e3-c78e-43ac-8478-5606c25e7486",
+      "comment": "",
+      "command": "click on password box",
+      "target": "id=sign-password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc2ac4a4-33f7-4f34-9524-d068140732d6",
+      "comment": "",
+      "command": "fill the password",
+      "target": "id=sign-password",
+      "targets": [],
+      "value": "farah7"
+    }, {
+      "id": "71b80685-4294-4366-9fb8-b2e62f1f20c9",
+      "comment": "",
+      "command": "check if the sign up button is function",
+      "target": "css=#signInModal .btn-primary",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d203940-97eb-4244-a038-e2f78aad8013",
+      "comment": "",
+      "command": "click on sign up button",
+      "target": "css=#signInModal .btn-primary",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dda1c088-5b70-4aac-9f31-377a25532c66",
+      "comment": "",
+      "command": "sign up successful",
+      "target": "Sign up successful.",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "489b7c9e-fdfb-483d-8a1b-763a86f0e70d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["81c901f4-5490-465a-a55f-bb498138e7a2"]
+  }],
+  "urls": ["https://www.demoblaze.com/"],
+  "plugins": []
+}
